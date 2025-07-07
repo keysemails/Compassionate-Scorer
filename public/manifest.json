@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Compassion Scorer",
+  "version": "1.0",
+  "description": "Evaluate websites for animal welfare and ethical practices.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "favicon-96x96.png",
+      "32": "favicon-96x96.png",
+      "48": "favicon-96x96.png",
+      "128": "favicon-96x96.png"
+    }
+  },
+  "icons": {
+    "16": "favicon-96x96.png",
+    "32": "favicon-96x96.png",
+    "48": "favicon-96x96.png",
+    "128": "favicon-96x96.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+} 
